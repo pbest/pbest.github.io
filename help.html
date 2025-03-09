@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>
+            
+    HELP -
+
+            Paul Best | Portfolio
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon-precomposed" href="/favicon-96x96.png">
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+
+        
+        <meta name="description" content="Paul Best is a Product Design Director at The Washington Post">
+
+        
+        <meta property="og:title" content="Paul Best | Portfolio">
+        <meta property="og:site_name" content="Paul Best | Portfolio">
+        <meta property="og:url" content="https://studios.isl.co">
+        <meta property="og:description" content="Portfolio site for Paul Best, design director">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="/static/img/paul-best-og.png">
+
+        
+        <meta name="theme-color" content="transparent">
+        
+
+        <link href="/static/css/app.css" rel="stylesheet">
+        
+        <noscript>
+    <style>
+        .LoadIn,
+        .LoadInMd {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .LoadInScale {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .LoadIn.LineDecoration-text {
+            transform: rotate(-90deg) translate(-15rem, -5.1rem);
+        }
+
+        .Projects-filterWrap,
+        .Hero-vidOverlay {
+            display: none;
+        }
+    </style>
+</noscript>
+
+        <script src="/static/js/bundle.js" async defer></script>
+        <script src="/static/flickity/flickity.pkgd.min.js" async defer></script>
+        <script>
+        console.log("HEEEY");
+
+        const observer = new IntersectionObserver( 
+  ([e]) => e.target.toggleAttribute('data-stuck', e.intersectionRatio < 1),
+  {threshold: [1]}
+);
+
+observer.observe(document.querySelector('.content--sticky'));
+
+        
+        </script>
+    </head>
+
+    <body>
+        <div class="u-posRelative">
+            <div class="Overlay js-overlay"></div>
+
+        <div class="colorWrap" style="">
+            <header class="Header ">
+                <h1 class="u-hiddenVisually">Header</h1>
+
+                <div class="Grid Grid--fit">
+                    <div class="Grid-cell Header-inner">
+                        <!--<div class="Nav-secondary Nav-secondary--dt js-directors">
+                            <div class="u-textRight">
+                                <button class="ButtonClose js-toggle-directors">
+                                    <span class="ButtonClose-text">close</span>
+                                    <img class="ButtonClose-img" src="/static/img/close-btn-x.svg" alt="close">
+                                </button>
+                            </div>
+                        </div>-->
+
+                        <div class="Header-logoWrap js-way-logo">
+                            <a class="Header-logo Header-logo--black" href="/">
+                                <img src="/static/img/logo-dark.png">
+                                <span class="Header-logoType">Paul Best</span>
+                            </a>
+                        </div>
+
+                        <button class="ButtonNav js-toggle-nav" id="navBtn" aria-label="Open mobile menu">
+                            <div class="ButtonNav-line ButtonNav-line--top" aria-hidden="true"></div>
+                            <div class="ButtonNav-line ButtonNav-line--middle" aria-hidden="true"></div>
+                            <div class="ButtonNav-line ButtonNav-line--bottom" aria-hidden="true"></div>
+                        </button>
+
+                        <nav class="Nav js-nav" id="navMenu">
+                            <h1 class="u-hiddenVisually">Navigation</h1>
+
+                            <ul class="Nav-list Nav-list--primary">
+                                <!--<li class="Nav-list-item">
+                                    <a class="Button Button--nav js-way-nav Button--navHome" href="/">Home</a>
+                                </li>-->
+                                <li class="Nav-list-item">
+                                    <a class="Button Button--nav js-way-nav" href="#work">Work</a>
+                                </li>
+                                <li class="Nav-list-item">
+                                    <a class="Button Button--nav  js-way-nav" href="#about">About</a>
+                                </li>
+                                <li class="Nav-list-item">
+                                    <a class="Button Button--nav" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </header>
+
+            
+<header>
+    <div class="Grid Grid--fit">
+        <div class="Grid-cell">
+            <h1>Hello, islstudios</h1>
+            <img src="/static/img/isl-logo.png" alt="ISL logo">
+
+            <!-- mo static quick help -->
+            <h2 style="margin-top: 2rem;">mo-static quick help:</h2>
+            <ul style="margin-bottom: 2rem;">
+                <li><a href="/help/grid.html">Suitcss Grid Outline</a></li>
+            </ul>
+
+            <p>This message comes from <code>config.js</code> file in the project <code>WHAZZAAAAHHHHH</code></p>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section>
+
+        <div class="Grid Grid--fit">
+            <div class="Grid-cell">
+                <header>
+                    <h1 style="margin: 2rem 0 1rem;">The Grid</h1>
+                    <h2 style="margin: 2rem 0 1rem;">Basics</h2>
+                </header>
+
+                <p style="margin-bottom: 1rem; line-height: 1.5rem;">
+                    The Grid relies on two classes, you can think of the top-level <code class="Code">.Grid</code> class as the equivalent to Foundation's row class. It&rsquo;s the flexbox container that will hold all the columns. If we just adds a <code class="Code">max-width</code> it&rsquo;ll behave as your standard grid. The <code class="Code">.Grid-cell</code> class on the other hand is Foundation&rsquo;s equivalent of the column class. By default a <code class="Code">Grid-cell</code> will take on 100% of it&rsquo;s parent&rsquo;s width. With extra classes you can specify custom and responsive widths. For more examples and information you can find the docs for the Grid component <a href="https://github.com/suitcss/components-grid" target="_blank">here.</a>
+                </p>
+
+                <h2 style="margin-bottom: 1rem;">Modify the grid</h2>
+
+                <p style="margin-bottom: 0.5rem; line-height: 1.5rem;">
+                    To modify the grid&rsquo;s maximum width and gutter size. Take a look at the <code class="Code">--Grid-gutter-size</code> and <code class="Code">--Grid-max-width</code> variables on the <code class="Code">:root</code> object in <code class="Code">app.css</code>.
+                </p>
+
+                <div style="margin-bottom: 2rem;">
+                    <div>
+                        <input type="checkbox" id="gutters" class="js-control" checked>
+                        <label for="gutters"> Grids have gutters? (toggle <code class="Code">.Grid--withGutter</code>)</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell ExampleCell"><div class="Figurebox">.Grid-cell</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size1of12 ExampleCell"><div class="Figurebox">.u-lg-size1of12</div></div>
+            <div class="Grid-cell u-lg-size11of12 ExampleCell"><div class="Figurebox">.u-lg-size11of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size2of12 ExampleCell"><div class="Figurebox">.u-lg-size2of12</div></div>
+            <div class="Grid-cell u-lg-size10of12 ExampleCell"><div class="Figurebox">.u-lg-size10of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size3of12 ExampleCell"><div class="Figurebox">.u-lg-size3of12</div></div>
+            <div class="Grid-cell u-lg-size9of12 ExampleCell"><div class="Figurebox">.u-lg-size9of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size4of12 ExampleCell"><div class="Figurebox">.u-lg-size4of12</div></div>
+            <div class="Grid-cell u-lg-size8of12 ExampleCell"><div class="Figurebox">.u-lg-size8of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size5of12 ExampleCell"><div class="Figurebox">.u-lg-size5of12</div></div>
+            <div class="Grid-cell u-lg-size7of12 ExampleCell"><div class="Figurebox">.u-lg-size7of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size6of12 ExampleCell"><div class="Figurebox">.u-lg-size6of12</div></div>
+            <div class="Grid-cell u-lg-size6of12 ExampleCell"><div class="Figurebox">.u-lg-size6of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size7of12 ExampleCell"><div class="Figurebox">.u-lg-size7of12</div></div>
+            <div class="Grid-cell u-lg-size5of12 ExampleCell"><div class="Figurebox">.u-lg-size5of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size8of12 ExampleCell"><div class="Figurebox">.u-lg-size8of12</div></div>
+            <div class="Grid-cell u-lg-size4of12 ExampleCell"><div class="Figurebox">.u-lg-size4of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size9of12 ExampleCell"><div class="Figurebox">.u-lg-size9of12</div></div>
+            <div class="Grid-cell u-lg-size3of12 ExampleCell"><div class="Figurebox">.u-lg-size3of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size10of12 ExampleCell"><div class="Figurebox">.u-lg-size10of12</div></div>
+            <div class="Grid-cell u-lg-size2of12 ExampleCell"><div class="Figurebox">.u-lg-size2of12</div></div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter">
+            <div class="Grid-cell u-lg-size11of12 ExampleCell"><div class="Figurebox">.u-lg-size11of12</div></div>
+            <div class="Grid-cell u-lg-size1of12 ExampleCell"><div class="Figurebox">.u-lg-size1of12</div></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="Grid Grid--withGutter">
+            <div class="Grid-cell">
+                <header>
+                    <h1 style="margin: 2rem 0 1rem;">Nested Grids</h1>
+                </header>
+
+                <p style="margin-bottom: 1rem; line-height: 1.5rem;">
+                    Nested grids are available as well, this grid also got a <code class="Code">Grid--equalHeights</code> modifier that makes all columns equal in height. For more available classes take a look at the list on the <a href="https://github.com/suitcss/components-grid" target="_blank">Suitcss repo</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="Grid Grid--demo Grid--withGutter Grid--equalHeight">
+            <div class="Grid-cell u-lg-size8of12 ExampleCell">
+                <div class="Figurebox">
+                    <code style="margin-bottom: 0.5rem; display: block;">Level 1</code>
+
+                    <div class="Grid Grid--demo Grid--withGutter" style="margin-bottom: 0 !important;">
+                        <div class="Grid-cell u-md-size6of12 ExampleCell"><div class="Figurebox">Level 2</div></div>
+                        <div class="Grid-cell u-md-size6of12 ExampleCell"><div class="Figurebox">Level 2</div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="Grid-cell u-lg-size4of12 ExampleCell">
+                <div class="Figurebox">Level 1</div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+            <footer class="Footer Footer--black " id="contact">
+                <h1 class="u-hiddenVisually">Footer</h1>
+
+                <div class="Grid Grid--alignBottom u-fullScreenHeight">
+                    <div class="Grid-cell">
+                        <h2 class="H2 H2--footer">
+                        
+                            Let's make something together.
+                            <a href="mailto:hello@paul.best">hello@paul.best</a>
+                        
+                        </h2>
+                    </div>
+
+                    <!-- div class="Grid-cell Grid-cell--center Grid--alignMiddle LoadIn js-way-footerLinks"> -->
+<div class="Grid-cell Grid-cell--center Grid--alignMiddle">
+    <div class="Grid u-flexAlignItemsCenter" style="width:100% !important">
+        <div class="Grid-cell u-md-size8of12 Footer-col">
+            Based in Harlem NYC
+        </div>
+
+
+
+        <div class="Grid-cell u-md-size4of12 Footer-col Footer-col--right">
+            <a class="ButtonSocial" href="https://www.instagram.com/apbest/" target="_blank" title="Follow me on Instagram">
+                <svg class="ButtonSocial-icon" width="42" height="43" viewBox="0 0 42 43" xmlns="http://www.w3.org/2000/svg"><path d="M28 21.5c0-3.855-3.145-7-7-7s-7 3.145-7 7 3.145 7 7 7 7-3.145 7-7zm3.773 0c0 5.96-4.812 10.773-10.773 10.773-5.96 0-10.773-4.812-10.773-10.773 0-5.96 4.812-10.773 10.773-10.773 5.96 0 10.773 4.812 10.773 10.773zm2.954-11.21c0 1.394-1.12 2.515-2.516 2.515-1.394 0-2.515-1.12-2.515-2.516s1.12-2.517 2.516-2.517 2.517 1.12 2.517 2.516zM21 4.272c-3.062 0-9.625-.246-12.387.848-.957.384-1.668.85-2.406 1.587-.738.738-1.203 1.45-1.586 2.406-1.093 2.762-.847 9.324-.847 12.387 0 3.062-.246 9.625.848 12.387.384.957.85 1.668 1.587 2.406.738.738 1.45 1.203 2.406 1.586 2.762 1.093 9.325.847 12.387.847 3.063 0 9.625.246 12.387-.848.957-.384 1.668-.85 2.406-1.587.738-.738 1.203-1.45 1.586-2.406 1.093-2.762.847-9.325.847-12.387 0-3.063.246-9.625-.848-12.387-.384-.957-.85-1.668-1.587-2.406-.738-.738-1.45-1.203-2.406-1.586-2.762-1.093-9.324-.847-12.387-.847zM42 21.5c0 2.898.027 5.77-.137 8.668-.164 3.363-.93 6.344-3.39 8.805-2.46 2.46-5.442 3.226-8.805 3.39-2.898.164-5.77.137-8.668.137-2.898 0-5.77.027-8.668-.137-3.363-.164-6.344-.93-8.805-3.39C1.067 36.513.3 33.53.137 30.168-.027 27.27 0 24.398 0 21.5c0-2.898-.027-5.77.137-8.668.164-3.363.93-6.344 3.39-8.805C5.987 1.567 8.97.8 12.332.637 15.23.473 18.102.5 21 .5c2.898 0 5.77-.027 8.668.137 3.363.164 6.344.93 8.805 3.39 2.46 2.46 3.226 5.442 3.39 8.805.164 2.898.137 5.77.137 8.668z" fill-rule="evenodd"/></svg>
+
+                <span class="u-hiddenVisually">Follow me on Instagram</span>
+            </a>
+
+            <a class="ButtonSocial" href="https://www.linkedin.com/in/bestpaul/" target="_blank" title="Connect with me on LinkedIn">
+                <svg class="ButtonSocial-icon" width="45" height="39" viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg"><path d="M416,0 L31.9,0 C14.3,0 0,14.5 0,32.3 L0,415.7 C0,433.5 14.3,448 31.9,448 L416,448 C433.6,448 448,433.5 448,415.7 L448,32.3 C448,14.5 433.6,0 416,0 Z M135.4,384 L69,384 L69,170.2 L135.5,170.2 L135.5,384 L135.4,384 Z M102.2,141 C80.9,141 63.7,123.7 63.7,102.5 C63.7,81.3 80.9,64 102.2,64 C123.4,64 140.7,81.3 140.7,102.5 C140.7,123.8 123.5,141 102.2,141 L102.2,141 Z M384.3,384 L317.9,384 L317.9,280 C317.9,255.2 317.4,223.3 283.4,223.3 C248.8,223.3 243.5,250.3 243.5,278.2 L243.5,384 L177.1,384 L177.1,170.2 L240.8,170.2 L240.8,199.4 L241.7,199.4 C250.6,182.6 272.3,164.9 304.6,164.9 C371.8,164.9 384.3,209.2 384.3,266.8 L384.3,384 L384.3,384 Z" fill-rule="evenodd"/></svg>
+
+
+
+
+                <span class="u-hiddenVisually">Connect with me on LinkedIn</span>
+            </a>
+        </div> <!-- end .Footer-col -->
+    </div> <!-- end .Grid -->
+</div> <!-- end .Grid-cell -->
+
+
+                </div> <!-- end .Grid -->
+            </footer>
+        </div>
+
+        
+
+        
+<script>
+    var allGrids = [].slice.call(document.querySelectorAll('.Grid--withGutter'))
+
+    function handleUpdate(e) {
+        allGrids.forEach(function(grid) {
+            if (e.target.checked) {
+                grid.classList.add('Grid--withGutter')
+            } else {
+                grid.classList.remove('Grid--withGutter')
+            }
+        })
+    }
+
+    var controls = [].slice.call(document.querySelectorAll('.js-control'))
+
+    controls.forEach(function(input) {
+        input.addEventListener('change', handleUpdate)
+    })
+</script>
+
+
+        
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "name": "",
+                "url": "",
+                "logo": "",
+                "sameAs": [
+                    
+                    
+                    
+                    
+                    
+                ]
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="268px" height="268px" viewBox="0 0 268 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-icon-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook-icon-white" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M252.717,0.553 L15.283,0.553 C7.146,0.553 0.553,7.147 0.553,15.283 L0.553,252.717 C0.553,260.852 7.147,267.447 15.283,267.447 L143.109,267.447 L143.109,164.092 L108.328,164.092 L108.328,123.812 L143.109,123.812 L143.109,94.107 C143.109,59.634 164.164,40.863 194.916,40.863 C209.646,40.863 222.307,41.96 225.996,42.45 L225.996,78.476 L204.668,78.486 C187.943,78.486 184.705,86.433 184.705,98.095 L184.705,123.812 L224.592,123.812 L219.399,164.092 L184.706,164.092 L184.706,267.447 L252.718,267.447 C260.853,267.447 267.448,260.851 267.448,252.717 L267.448,15.283 C267.447,7.146 260.852,0.553 252.717,0.553 L252.717,0.553 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
