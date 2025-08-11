@@ -1,0 +1,436 @@
+[
+  {
+    "slug": "19crimes",
+    "title": "TEST",
+    "client": "TEST",
+    "desc": "The challenge: transport customers from their in-store experience to the barracks of a 19th century convict ship. ISL Studios partnered with JWT San Francisco to tackle the creative task of designing historically accurate sets, wardrobes, and props; all while handling the technical challenge of shooting for virtual reality and 360º experiences. The result was a jarring, intense, and highly immersive experience that puts you in the prisoner’s shackles.",
+    "type": "Live Action",
+    "videoLength": "00:46",
+    "vimeo": "228818807",
+    "showOnHome": true,
+    "credits": [
+      {
+        "title": "Director",
+        "name": "Zach Goodwin"
+      },
+      {
+        "title": "Director of Photography",
+        "name": "Matt Tanski"
+      },
+      {
+        "title": "First AC",
+        "name": "Nick Kinni"
+      },
+      {
+        "title": "Producer",
+        "name": "Margot Mausner"
+      },
+      {
+        "title": "Editor",
+        "name": "Matt Tanski"
+      },
+      {
+        "title": "DIT",
+        "name": "Vinh Le"
+      },
+      {
+        "title": "Art Director",
+        "name": "Maggie Gaudaen"
+      },
+      {
+        "title": "Account Director",
+        "name": "Lindsay Gsell"
+      },
+      {
+        "title": "Colorist",
+        "name": "RCO"
+      },
+      {
+        "title": "Sound Design & Mix",
+        "name": "Defacto"
+      },
+      {
+        "title": "Custom Score",
+        "name": "Aaron Thompson"
+      },
+      {
+        "title": "Agency Copywriter",
+        "name": "Tom Hasenfratz, JWT"
+      },
+      {
+        "title": "Agency Art Director",
+        "name": "Chelsea Nobbs, JWT"
+      },
+      {
+        "title": "Agency Project Manager",
+        "name": "Remy Wainfield, JWT"
+      },
+      {
+        "title": "Agency Director of Production",
+        "name": "Dora Lee, JWT"
+      }
+    ],
+    "gallery": [
+      "19crimes/19crimes1.jpg",
+      "19crimes/19crimes2.jpg",
+      "19crimes/19crimes3.jpg"
+    ],
+    "watchNext": {
+      "mobile": "thumbs/watchnext-mobile/danimals-momfidence.jpg",
+      "desktop": "thumbs/watchnext/danimals-momfidence.jpg",
+      "url": "/projects/danimals-momfidence/",
+      "title": "Momfidence",
+      "client": "Danimals"
+    }
+  },
+  {
+    "slug": "danimals-momfidence",
+    "title": "Momfidence",
+    "client": "Danimals",
+    "desc": "Knowing what your kids will actually eat requires a mom with Momfidence! Danimals wanted a series of videos and GIFs that highlight the confidence a mom has when she feeds her kids Danimals, a tasty treat they are sure to enjoy.",
+    "type": "Live Action",
+    "videoLength": "00:23",
+    "vimeo": "235960392",
+    "showOnHome": true,
+    "credits": [
+      {
+        "title": "Director",
+        "name": "Zach Goodwin"
+      },
+      {
+        "title": "Assistant Director",
+        "name": "Mike O'Brien"
+      },
+      {
+        "title": "Director of Photography",
+        "name": "Matt Tanski"
+      },
+      {
+        "title": "First AC",
+        "name": "Ian Axilrod "
+      },
+      {
+        "title": "DIT",
+        "name": "Sammy Yoon"
+      },
+      {
+        "title": "Producer",
+        "name": "Margot Mausner"
+      },
+      {
+        "title": "Editor",
+        "name": "Sammy Yoon"
+      },
+      {
+        "title": "Art Director",
+        "name": "Maggie Gaudaen"
+      },
+      {
+        "title": "Designer",
+        "name": "Alyssa Morrison"
+      },
+      {
+        "title": "Project Manager",
+        "name": "Amanda Doyle"
+      },
+      {
+        "title": "Colorist",
+        "name": "RCO"
+      },
+      {
+        "title": "Sound Design & Mix",
+        "name": "Defacto Sound"
+      },
+      {
+        "title": "Agency Copywriter",
+        "name": "Emily Goldenberg, JWT"
+      },
+      {
+        "title": "Agency Art Director",
+        "name": "Logan Betsch, JWT"
+      },
+      {
+        "title": "Agency Project Manager",
+        "name": "Gemma Jorda, JWT"
+      }
+    ],
+    "gallery": [
+      "danimals/danimals1.jpg",
+      "danimals/danimals2.jpg",
+      "danimals/danimals3.jpg"
+    ],
+    "watchNext": {
+      "mobile": "thumbs/watchnext-mobile/dramamine-gift-of-flight.jpg",
+      "desktop": "thumbs/watchnext/dramamine-gift-of-flight.jpg",
+      "url": "/projects/dramamine-gift-of-flight/",
+      "title": "Gift of Flight",
+      "client": "Dramamine"
+    }
+  },
+  {
+    "slug": "dramamine-gift-of-flight",
+    "title": "Gift of Flight",
+    "client": "Dramamine",
+    "desc": "With “Gift of Flight” we were able to connect Dramamine, a product used for motion-inducing experiences (both big and small), with the larger conversation around virtual reality (VR). In this innovative and ambitious campaign, we captured the experience of 5 real motion sickness sufferers as they were surprised and delighted to fly 15 feet in the air within simulated adventures. As they rode on a speedboat, raced on a test track, flew like Superman through a busy city, and braved an epic roller coaster, we had a 21 foot jib swooping through a 3000 sq foot soundstage to capture every reaction.",
+    "type": "Live Action",
+    "videoLength": "01:59",
+    "vimeo": "228818830",
+    "showOnHome": true,
+    "credits": [
+      {
+        "title": "Director",
+        "name": "Zach Goodwin"
+      },
+      {
+        "title": "Director of Photography",
+        "name": "Matt Tanski"
+      },
+      {
+        "title": "First AC",
+        "name": "Vinh Le"
+      },
+      {
+        "title": "Producer",
+        "name": "Laticia Heddings"
+      },
+      {
+        "title": "Editor",
+        "name": "Matt Tanski"
+      },
+      {
+        "title": "Associate Creative Director",
+        "name": "Mike O'Brien"
+      },
+      {
+        "title": "Designer",
+        "name": "Spencer Joynt"
+      },
+      {
+        "title": "Set Engineer",
+        "name": "Zach Saale"
+      },
+      {
+        "title": "Set Engineer",
+        "name": "Ken Marut"
+      },
+      {
+        "title": "Project Manager",
+        "name": "Nicole Wyche"
+      },
+      {
+        "title": "Account Director",
+        "name": "Eric Shutt"
+      },
+      {
+        "title": "Colorist",
+        "name": "Taylre Jones, Grade"
+      }
+    ],
+    "gallery": null,
+    "watchNext": {
+      "mobile": "thumbs/watchnext-mobile/volkswagen-the-pitch.jpg",
+      "desktop": "thumbs/watchnext/volkswagen-the-pitch.jpg",
+      "url": "/projects/volkswagen-the-pitch/",
+      "title": "The Pitch",
+      "client": "Volkswagen"
+    }
+  },
+  {
+    "slug": "volkswagen-the-pitch",
+    "title": "World Auto - The Pitch",
+    "client": "Volkswagen",
+    "desc": "Buying a used car can be, well…terrifying. There are many options and it can be hard to tell what you’re getting. Volkswagen called upon us to tell people about their impressive Certified-Pre-Owned value and connect WorldAuto more directly to the Volkswagen brand. We did it by introducing a unique “cast of characters”, all selling cars that you want to…avoid.",
+    "type": "Live Action",
+    "videoLength": "00:49",
+    "vimeo": "227776431",
+    "showOnHome": true,
+    "credits": [
+      {
+        "title": "Director",
+        "name": "Zach Goodwin"
+      },
+      {
+        "title": "Director of Photography",
+        "name": "Matt Tanski"
+      },
+      {
+        "title": "First AC",
+        "name": "Vinh Le"
+      },
+      {
+        "title": "Producer",
+        "name": "Jen Kwon"
+      },
+      {
+        "title": "Editor",
+        "name": "Matt Tanski"
+      },
+      {
+        "title": "Art Director",
+        "name": "Maggie Gaudaen"
+      },
+      {
+        "title": "Designer",
+        "name": "Paul Dunbar"
+      },
+      {
+        "title": "Designer",
+        "name": "Spencer Joynt"
+      },
+      {
+        "title": "Project Manager",
+        "name": "Lauren Everett"
+      },
+      {
+        "title": "Account Director",
+        "name": "Mike Giangreco"
+      },
+      {
+        "title": "Colorist",
+        "name": "Taylre Jones, Grade"
+      },
+      {
+        "title": "Sound Design & Mix",
+        "name": "IMG"
+      }
+    ],
+    "gallery": [
+      "vw-thepitch/vw-thepitch1.jpg",
+      "vw-thepitch/vw-thepitch2.jpg",
+      "vw-thepitch/vw-thepitch3.jpg",
+      "vw-thepitch/vw-thepitch4.jpg"
+    ],
+    "watchNext": {
+      "mobile": "thumbs/watchnext-mobile/ept-moment-of-truth.jpg",
+      "desktop": "thumbs/watchnext/ept-moment-of-truth.jpg",
+      "url": "/projects/ept-moment-of-truth/",
+      "title": "Moment of Truth",
+      "client": "EPT"
+    }
+  },
+  {
+    "slug": "ept-moment-of-truth",
+    "title": "Moment of Truth",
+    "client": "EPT",
+    "desc": "e.p.t™ asked ISL to think beyond typical pregnancy commercials that show happy women jumping for joy at positive tests, and to rather show the real #momentoftruth. We created a concept for a video that focuses on e.p.t’s™ heritage, trust and accuracy – the three pillars upon which the brand is built.",
+    "type": "Live Action",
+    "videoLength": "00:30",
+    "vimeo": "228818815",
+    "showOnHome": true,
+    "credits": [
+      {
+        "title": "Director",
+        "name": "Zach Goodwin"
+      },
+      {
+        "title": "Director of Photography",
+        "name": "Eli Sinkus"
+      },
+      {
+        "title": "First AC",
+        "name": "Matt Tanski"
+      },
+      {
+        "title": "Second AC",
+        "name": "Vinh Le"
+      },
+      {
+        "title": "Producer",
+        "name": "Jen Kwon"
+      },
+      {
+        "title": "Producer",
+        "name": "Margot Mausner"
+      },
+      {
+        "title": "Editor",
+        "name": "Eli Sinkus"
+      },
+      {
+        "title": "Designer",
+        "name": "James Bonilla"
+      },
+      {
+        "title": "Project Manager",
+        "name": "Lauren Everett"
+      },
+      {
+        "title": "Account Director",
+        "name": "Philippa Levenburg"
+      },
+      {
+        "title": "Colorist",
+        "name": "Taylre Jones, Grade"
+      },
+      {
+        "title": "Sound Design & Mix",
+        "name": "IMG"
+      }
+    ],
+    "gallery": [
+      "ept-mot/ept1.jpg",
+      "ept-mot/ept2.jpg",
+      "ept-mot/ept3.jpg",
+      "ept-mot/ept4.jpg"
+    ],
+    "watchNext": {
+      "mobile": "thumbs/watchnext-mobile/little-remedies-little-wisdom.jpg",
+      "desktop": "thumbs/watchnext/little-remedies-little-wisdom.jpg",
+      "url": "/projects/little-remedies-little-wisdom/",
+      "title": "Little Wisdom",
+      "client": "Little Remedies"
+    }
+  },
+  {
+    "slug": "mobile-future-myir16",
+    "title": "Mobile Year in Review",
+    "client": "Mobile Future",
+    "desc": "Each year, Mobile Future compiles a range of key mobile statistics from the year. These stats are one of the chief components for the video’s messaging, so our goal was to ensure we created a concise and engaging way to absorb this important information. Our solution was contained in three butter-smooth animations, featuring bold, geometric typography and bright colors.",
+    "type": "Animation",
+    "videoLength": "01:12",
+    "vimeo": "227782625",
+    "showOnHome": true,
+    "credits": [
+      {
+        "title": "Director",
+        "name": "Zach Goodwin"
+      },
+      {
+        "title": "Animator",
+        "name": "Frederik Wiedel"
+      },
+      {
+        "title": "All Post Production",
+        "name": "Frederik Wiedel"
+      },
+      {
+        "title": "Art Director",
+        "name": "Mike O'Brien"
+      },
+      {
+        "title": "Designer",
+        "name": "James Bonilla"
+      },
+      {
+        "title": "Project Manager",
+        "name": "Arista Ware II"
+      },
+      {
+        "title": "Account Director",
+        "name": "Audrey Matthias"
+      },
+      {
+        "title": "Sound Design & Mix",
+        "name": "Wesley Slover"
+      }
+    ],
+    "gallery": null,
+    "watchNext": {
+      "mobile": "thumbs/watchnext-mobile/oikos-triplezero.jpg",
+      "desktop": "thumbs/watchnext/oikos-triplezero.jpg",
+      "url": "/projects/oikos-triplezero/",
+      "title": "Triple Zero - Misty Copeland",
+      "client": "Oikos"
+    }
+  }
+]
