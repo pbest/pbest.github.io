@@ -5164,10 +5164,10 @@ p a {
     margin-left: 0.3rem;
 }
 .Caret--up {
-    background-image: url('/static/img/caret-up-d324d463c6.svg');
+    background-image: url('/static/img/caret-up.svg');
 }
 .Caret--down {
-    background-image: url('/static/img/caret-down-d46812aaab.svg');
+    background-image: url('/static/img/caret-down.svg');
 }
 .Dash {
     font-family: 'Noe-Display-Regular', Times, sans-serif;

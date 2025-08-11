@@ -1,1 +1,212 @@
-<div class="Grid Grid--fit"><div class="Grid-cell Projects-inner" id="js-projects"><div class="Projects-filterWrap LoadIn js-way-filter"><div class="ButtonFilterOpen" v-on:click="projectsFilterIsOpen = !projectsFilterIsOpen">Filter <span class="Caret" v-bind:class="{'Caret--up': projectsFilterIsOpen, 'Caret--down': !projectsFilterIsOpen}"></span></div><ul class="Projects-filter" v-bind:class="{'is-open': projectsFilterIsOpen}" v-cloak><li class="Projects-filter-item LoadInMd LoadInMd--nav1 js-way-filter"><button class="Button Button--filter" v-bind:class="{'is-active': currentFilter == 'all'}" v-on:click="updateFilter('all')">View All</button></li><li class="Projects-filter-item LoadInMd LoadInMd--nav2 js-way-filter"><button class="Button Button--filter" v-bind:class="{'is-active': currentFilter == 'Live Action'}" v-on:click="updateFilter('Live Action')">Live Action</button></li><li class="Projects-filter-item LoadInMd LoadInMd--nav3 js-way-filter"><button class="Button Button--filter" v-bind:class="{'is-active': currentFilter == 'Animation'}" v-on:click="updateFilter('Animation')">Animation</button></li></ul></div><div class="Projects-listWrap" v-bind:class="{'is-animating': isAnimating}" v-cloak><div class="Projects-item js-way-project LoadInLeft" v-show="currentFilter == 'all' || currentFilter == 'Live Action'"><a class="Projects-item-link" href="/projects/19crimes/"><img src="/static/img/projects/thumbs/19crimes-87c13b417f.jpg" alt="TEST: TEST"><div class="ProjectInfo"><div class="ProjectInfo-initial"><span class="clientName">TEST</span> <span class="projectName">/ &ldquo;TEST&rdquo;</span></div><div class="ProjectInfo-large"><div class="innerMiddle"><div class="projectName">TEST</div><div class="clientName">TEST</div></div><div class="projectType">Live Action</div></div></div></a></div><div class="Projects-item js-way-project LoadInRight" v-show="currentFilter == 'all' || currentFilter == 'Live Action'"><a class="Projects-item-link" href="/projects/danimals-momfidence/"><img src="/static/img/projects/thumbs/danimals-momfidence-56d01480ff.jpg" alt="Danimals: Momfidence"><div class="ProjectInfo"><div class="ProjectInfo-initial"><span class="clientName">Danimals</span> <span class="projectName">/ &ldquo;Momfidence&rdquo;</span></div><div class="ProjectInfo-large"><div class="innerMiddle"><div class="projectName">Momfidence</div><div class="clientName">Danimals</div></div><div class="projectType">Live Action</div></div></div></a></div><div class="Projects-item js-way-project LoadInLeft" v-show="currentFilter == 'all' || currentFilter == 'Live Action'"><a class="Projects-item-link" href="/projects/dramamine-gift-of-flight/"><img src="/static/img/projects/thumbs/dramamine-gift-of-flight-c97ac1ecb0.jpg" alt="Dramamine: Gift of Flight"><div class="ProjectInfo"><div class="ProjectInfo-initial"><span class="clientName">Dramamine</span> <span class="projectName">/ &ldquo;Gift of Flight&rdquo;</span></div><div class="ProjectInfo-large"><div class="innerMiddle"><div class="projectName">Gift of Flight</div><div class="clientName">Dramamine</div></div><div class="projectType">Live Action</div></div></div></a></div><div class="Projects-item js-way-project LoadInRight" v-show="currentFilter == 'all' || currentFilter == 'Live Action'"><a class="Projects-item-link" href="/projects/volkswagen-the-pitch/"><img src="/static/img/projects/thumbs/volkswagen-the-pitch-4e9ae396fd.jpg" alt="Volkswagen: World Auto - The Pitch"><div class="ProjectInfo"><div class="ProjectInfo-initial"><span class="clientName">Volkswagen</span> <span class="projectName">/ &ldquo;World Auto - The Pitch&rdquo;</span></div><div class="ProjectInfo-large"><div class="innerMiddle"><div class="projectName">World Auto - The Pitch</div><div class="clientName">Volkswagen</div></div><div class="projectType">Live Action</div></div></div></a></div><div class="Projects-item js-way-project LoadInLeft" v-show="currentFilter == 'all' || currentFilter == 'Live Action'"><a class="Projects-item-link" href="/projects/ept-moment-of-truth/"><img src="/static/img/projects/thumbs/ept-moment-of-truth-08383b3092.jpg" alt="EPT: Moment of Truth"><div class="ProjectInfo"><div class="ProjectInfo-initial"><span class="clientName">EPT</span> <span class="projectName">/ &ldquo;Moment of Truth&rdquo;</span></div><div class="ProjectInfo-large"><div class="innerMiddle"><div class="projectName">Moment of Truth</div><div class="clientName">EPT</div></div><div class="projectType">Live Action</div></div></div></a></div><div class="Projects-item js-way-project LoadInRight" v-show="currentFilter == 'all' || currentFilter == 'Animation'"><a class="Projects-item-link" href="/projects/mobile-future-myir16/"><img src="/static/img/projects/thumbs/mobile-future-myir16-1b7eae0022.jpg" alt="Mobile Future: Mobile Year in Review"><div class="ProjectInfo"><div class="ProjectInfo-initial"><span class="clientName">Mobile Future</span> <span class="projectName">/ &ldquo;Mobile Year in Review&rdquo;</span></div><div class="ProjectInfo-large"><div class="innerMiddle"><div class="projectName">Mobile Year in Review</div><div class="clientName">Mobile Future</div></div><div class="projectType">Animation</div></div></div></a></div></div></div></div>
+<!-- Projects list for the Projects page -->
+
+<div class="Grid Grid--fit">
+    <div class="Grid-cell Projects-inner" id="js-projects">
+        <div class="Projects-filterWrap LoadIn js-way-filter">
+    <div
+    class="ButtonFilterOpen"
+    v-on:click="projectsFilterIsOpen = !projectsFilterIsOpen">
+        Filter
+        <span
+        class="Caret"
+        v-bind:class="{'Caret--up': projectsFilterIsOpen, 'Caret--down': !projectsFilterIsOpen}"></span>
+    </div>
+
+    <ul
+    class="Projects-filter"
+    v-bind:class="{'is-open': projectsFilterIsOpen}"
+    v-cloak>
+        <li class="Projects-filter-item LoadInMd LoadInMd--nav1 js-way-filter">
+            <button
+            class="Button Button--filter"
+            v-bind:class="{'is-active': currentFilter == 'all'}"
+            v-on:click="updateFilter('all')">
+                View All
+            </button>
+        </li>
+
+        <li class="Projects-filter-item LoadInMd LoadInMd--nav2 js-way-filter">
+            <button
+            class="Button Button--filter"
+            v-bind:class="{'is-active': currentFilter == 'Live Action'}"
+            v-on:click="updateFilter('Live Action')">
+                Live Action
+            </button>
+        </li>
+
+        <li class="Projects-filter-item LoadInMd LoadInMd--nav3 js-way-filter">
+            <button
+            class="Button Button--filter"
+            v-bind:class="{'is-active': currentFilter == 'Animation'}"
+            v-on:click="updateFilter('Animation')">
+                Animation
+            </button>
+        </li>
+    </ul>
+</div> <!-- end .Projects-filterWrap -->
+
+
+        <div class="Projects-listWrap" v-bind:class="{'is-animating': isAnimating}" v-cloak>
+            <!-- 19 Crimes -->
+            
+                
+                    <div class="Projects-item js-way-project LoadInLeft"
+                           v-show="currentFilter == 'all' || currentFilter == 'Live Action'">
+                        <a class="Projects-item-link" href="/projects/19crimes/">
+    <img src="/static/img/projects/thumbs/19crimes.jpg" alt="TEST: TEST">
+
+    <div class="ProjectInfo">
+        <div class="ProjectInfo-initial">
+            <span class="clientName">TEST</span>
+            <span class="projectName"> / &ldquo;TEST&rdquo;</span>
+        </div>
+
+        <div class="ProjectInfo-large">
+            <div class="innerMiddle">
+                <div class="projectName">TEST</div>
+                <div class="clientName">TEST</div>
+            </div>
+
+            <div class="projectType">Live Action</div>
+        </div>
+    </div>
+</a>
+
+                    </div>
+                
+            
+                
+                    <div class="Projects-item js-way-project LoadInRight"
+                           v-show="currentFilter == 'all' || currentFilter == 'Live Action'">
+                        <a class="Projects-item-link" href="/projects/danimals-momfidence/">
+    <img src="/static/img/projects/thumbs/danimals-momfidence.jpg" alt="Danimals: Momfidence">
+
+    <div class="ProjectInfo">
+        <div class="ProjectInfo-initial">
+            <span class="clientName">Danimals</span>
+            <span class="projectName"> / &ldquo;Momfidence&rdquo;</span>
+        </div>
+
+        <div class="ProjectInfo-large">
+            <div class="innerMiddle">
+                <div class="projectName">Momfidence</div>
+                <div class="clientName">Danimals</div>
+            </div>
+
+            <div class="projectType">Live Action</div>
+        </div>
+    </div>
+</a>
+
+                    </div>
+                
+            
+                
+                    <div class="Projects-item js-way-project LoadInLeft"
+                           v-show="currentFilter == 'all' || currentFilter == 'Live Action'">
+                        <a class="Projects-item-link" href="/projects/dramamine-gift-of-flight/">
+    <img src="/static/img/projects/thumbs/dramamine-gift-of-flight.jpg" alt="Dramamine: Gift of Flight">
+
+    <div class="ProjectInfo">
+        <div class="ProjectInfo-initial">
+            <span class="clientName">Dramamine</span>
+            <span class="projectName"> / &ldquo;Gift of Flight&rdquo;</span>
+        </div>
+
+        <div class="ProjectInfo-large">
+            <div class="innerMiddle">
+                <div class="projectName">Gift of Flight</div>
+                <div class="clientName">Dramamine</div>
+            </div>
+
+            <div class="projectType">Live Action</div>
+        </div>
+    </div>
+</a>
+
+                    </div>
+                
+            
+                
+                    <div class="Projects-item js-way-project LoadInRight"
+                           v-show="currentFilter == 'all' || currentFilter == 'Live Action'">
+                        <a class="Projects-item-link" href="/projects/volkswagen-the-pitch/">
+    <img src="/static/img/projects/thumbs/volkswagen-the-pitch.jpg" alt="Volkswagen: World Auto - The Pitch">
+
+    <div class="ProjectInfo">
+        <div class="ProjectInfo-initial">
+            <span class="clientName">Volkswagen</span>
+            <span class="projectName"> / &ldquo;World Auto - The Pitch&rdquo;</span>
+        </div>
+
+        <div class="ProjectInfo-large">
+            <div class="innerMiddle">
+                <div class="projectName">World Auto - The Pitch</div>
+                <div class="clientName">Volkswagen</div>
+            </div>
+
+            <div class="projectType">Live Action</div>
+        </div>
+    </div>
+</a>
+
+                    </div>
+                
+            
+                
+                    <div class="Projects-item js-way-project LoadInLeft"
+                           v-show="currentFilter == 'all' || currentFilter == 'Live Action'">
+                        <a class="Projects-item-link" href="/projects/ept-moment-of-truth/">
+    <img src="/static/img/projects/thumbs/ept-moment-of-truth.jpg" alt="EPT: Moment of Truth">
+
+    <div class="ProjectInfo">
+        <div class="ProjectInfo-initial">
+            <span class="clientName">EPT</span>
+            <span class="projectName"> / &ldquo;Moment of Truth&rdquo;</span>
+        </div>
+
+        <div class="ProjectInfo-large">
+            <div class="innerMiddle">
+                <div class="projectName">Moment of Truth</div>
+                <div class="clientName">EPT</div>
+            </div>
+
+            <div class="projectType">Live Action</div>
+        </div>
+    </div>
+</a>
+
+                    </div>
+                
+            
+                
+                    <div class="Projects-item js-way-project LoadInRight"
+                           v-show="currentFilter == 'all' || currentFilter == 'Animation'">
+                        <a class="Projects-item-link" href="/projects/mobile-future-myir16/">
+    <img src="/static/img/projects/thumbs/mobile-future-myir16.jpg" alt="Mobile Future: Mobile Year in Review">
+
+    <div class="ProjectInfo">
+        <div class="ProjectInfo-initial">
+            <span class="clientName">Mobile Future</span>
+            <span class="projectName"> / &ldquo;Mobile Year in Review&rdquo;</span>
+        </div>
+
+        <div class="ProjectInfo-large">
+            <div class="innerMiddle">
+                <div class="projectName">Mobile Year in Review</div>
+                <div class="clientName">Mobile Future</div>
+            </div>
+
+            <div class="projectType">Animation</div>
+        </div>
+    </div>
+</a>
+
+                    </div>
+                
+            
+        </div>
+    </div>
+</div>
+
+

@@ -1,1 +1,42 @@
-<div class="Projects-filterWrap LoadIn js-way-filter"><div class="ButtonFilterOpen" v-on:click="projectsFilterIsOpen = !projectsFilterIsOpen">Filter <span class="Caret" v-bind:class="{'Caret--up': projectsFilterIsOpen, 'Caret--down': !projectsFilterIsOpen}"></span></div><ul class="Projects-filter" v-bind:class="{'is-open': projectsFilterIsOpen}" v-cloak><li class="Projects-filter-item LoadInMd LoadInMd--nav1 js-way-filter"><button class="Button Button--filter" v-bind:class="{'is-active': currentFilter == 'all'}" v-on:click="updateFilter('all')">View All</button></li><li class="Projects-filter-item LoadInMd LoadInMd--nav2 js-way-filter"><button class="Button Button--filter" v-bind:class="{'is-active': currentFilter == 'Live Action'}" v-on:click="updateFilter('Live Action')">Live Action</button></li><li class="Projects-filter-item LoadInMd LoadInMd--nav3 js-way-filter"><button class="Button Button--filter" v-bind:class="{'is-active': currentFilter == 'Animation'}" v-on:click="updateFilter('Animation')">Animation</button></li></ul></div>
+<div class="Projects-filterWrap LoadIn js-way-filter">
+    <div
+    class="ButtonFilterOpen"
+    v-on:click="projectsFilterIsOpen = !projectsFilterIsOpen">
+        Filter
+        <span
+        class="Caret"
+        v-bind:class="{'Caret--up': projectsFilterIsOpen, 'Caret--down': !projectsFilterIsOpen}"></span>
+    </div>
+
+    <ul
+    class="Projects-filter"
+    v-bind:class="{'is-open': projectsFilterIsOpen}"
+    v-cloak>
+        <li class="Projects-filter-item LoadInMd LoadInMd--nav1 js-way-filter">
+            <button
+            class="Button Button--filter"
+            v-bind:class="{'is-active': currentFilter == 'all'}"
+            v-on:click="updateFilter('all')">
+                View All
+            </button>
+        </li>
+
+        <li class="Projects-filter-item LoadInMd LoadInMd--nav2 js-way-filter">
+            <button
+            class="Button Button--filter"
+            v-bind:class="{'is-active': currentFilter == 'Live Action'}"
+            v-on:click="updateFilter('Live Action')">
+                Live Action
+            </button>
+        </li>
+
+        <li class="Projects-filter-item LoadInMd LoadInMd--nav3 js-way-filter">
+            <button
+            class="Button Button--filter"
+            v-bind:class="{'is-active': currentFilter == 'Animation'}"
+            v-on:click="updateFilter('Animation')">
+                Animation
+            </button>
+        </li>
+    </ul>
+</div> <!-- end .Projects-filterWrap -->
